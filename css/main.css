@@ -1,0 +1,306 @@
+nav {
+	height:50px;
+	background:transparent;
+
+}
+#banner{
+	height:700px;
+	background:rgba(255,255,255,0.05);
+}
+
+
+nav ul {
+	list-style: none;
+	margin:0;
+	padding:0;
+	float:right;
+}
+.icon{
+	margin-top:250px;
+}
+nav ul li {
+	
+	display:inline-block;
+	line-height: 50px;
+	margin:auto 10px;
+}
+footer i{
+	padding:40px;
+}
+nav .logo{
+	float:left;
+	display:inline-block;
+	line-height: 50px;
+	letter-spacing: 5px;
+	font-size: 25px;
+	font-weight:700;
+	font-style: bold;
+	color:#fff;
+	margin-left:20px;
+}
+
+nav ul li a {
+	text-decoration: none;
+	display:block;
+	line-height: 50px;
+	color:#fff;
+}
+
+#banner .inner {
+	max-width: 300px;
+	margin:0 auto;
+	position: relative;
+	top:250px;
+	text-align: center;
+
+}
+
+#banner .inner h1,#banner .inner p{
+	margin:0 ;
+	text-align: center;
+	letter-spacing:4px;
+	color:#fff; 
+}
+
+
+#banner .inner h1 hr{
+	margin:0 auto;
+	width:160px;
+	height:1px;
+	border:none;
+	border-top:1px solid #555555;
+}
+
+#banner .inner button{
+	border:none;
+	padding:15px 30px;
+	position:relative;
+	top:20px;
+	background:rgba(252, 66, 66, 0.94);
+	border-radius: 10px;
+}
+
+#banner .inner .more{
+	position:relative;
+	top:200px;
+	font-size:20px;
+	font-weight:bold;
+}
+
+#banner hr .second{
+	margin-bottom:100px;
+}
+
+.content .green-section .wrapper{
+	max-width:1080px;
+	margin:0 auto;
+}
+.content .green-section{
+	text-align: center;
+	background:#07D79F;
+	color:#fff;
+	padding:100px 0;
+}
+
+.content .green-section h2{
+	margin:0;
+}
+
+.green-section .hr{
+	
+	margin:0 auto;
+	height:2px;
+	background-color:#027657;
+	margin:20px auto; 
+	width:60%;
+}
+
+.green-section .sub-heading{
+	font-size: 20px;
+}
+
+.green-section .icon-group .icon{
+	display:inline-block;
+	width:80px;
+	height:80px;
+	background:#038461;
+	transform:rotate(45deg);
+	margin:35px 35px;
+}
+
+.gray-section .image-section{
+	width:45%;
+}
+
+.image-section img{
+	width:100%;
+}
+
+.gray-section{
+	background:;
+}
+
+.article-preview .text-section{
+	width:55%;
+	position:relative;
+	top:100px;
+	left:10px;
+}
+
+.gray-section{
+	background:#252f34;
+	color:#fff;
+}
+
+.article-preview > div{
+	float:left;
+}
+
+.article-preview {
+	font-size: 0;//padding和margin都弄错了这个地方需要注意
+}
+
+.article-preview h2{
+	font-size:25px;
+}
+.article-preview:nth-child(odd)
+{
+	background-color:rgba(255,255,255,0.1);
+}
+.article-preview:after{
+	content:'';
+	display:block;
+	clear:both;
+	//子元素浮动了，父元素坍缩到合适的值为0
+	//这个时候为父元素清楚浮动
+
+}
+.article-preview .text-section h2{
+	margin-bottom:30px;
+}
+
+.article-preview .text-section p{
+	letter-spacing: 2px;
+	font-size:18px;
+	margin-left:5px;
+}
+
+.article-preview .text-section .subheading{
+	font-size:20px;
+	margin:0;
+	font-style:bold;
+}
+
+.purple-section{
+	background-color: #BA47F2;
+	color:#fff;
+}
+
+.purple-section h1{
+	margin:0;
+	padding-top:10px;
+	padding-bottom:5px;
+}
+
+.purple-section .hr{
+	margin:0 auto;
+	height:2px;
+	background-color:#8831B3;
+	margin:20px auto; 
+	width:60%;
+}
+
+.purple-section  .wrapper{
+	max-width:1080px;
+	margin:0 auto;
+}
+.purple-section .headwrapper{
+	
+	margin:0 auto;
+	text-align:center;
+}
+
+.card{
+	float:left;
+	width:50%;
+	min-height:100px;
+	padding:50px;
+
+	-webkit-box-sizing:border-box;	
+	-moz-box-sizing:border-box;
+	box-sizing:border-box;//这个实在没明白为什么
+
+}
+.card-group:after{
+	content:'';
+	display:block;
+	clear:both;
+}
+
+.card h3{
+font-size:20px;
+}
+
+.purple-section .subheading{
+	padding-bottom: 15px;
+}
+
+.card p{
+	font-size: 18px;
+	letter-spacing: 1px;
+}
+
+.card:first-child{
+	background:rgba(0,0,0,0.02);
+}
+
+.card:nth-child(2){
+	background:rgba(0,0,0,0.04);
+}
+
+.card:nth-child(3){
+	background:rgba(0,0,0,0.06);
+}
+
+.card:nth-child(4){
+	background:rgba(0,0,0,0.08);
+}
+
+.card:nth-child(5){
+	background:rgba(0,0,0,0.1);
+}
+
+.card:nth-child(6){
+	background:rgba(0,0,0,0.12);
+}
+
+footer{
+	background:#333;
+	min-height:150px;
+	text-align: center;
+}
+
+footer ul{
+	margin:0;
+	padding:50px;
+}
+
+
+ul .share-group{
+	width:1080px;
+	margin:0 auto;
+}
+
+footer li{
+	display:inline-block;
+	padding:15px;
+}
+
+
+.main-wrapper{
+	background: url(../image/banner2.jpg);
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-size:cover;
+
+}
